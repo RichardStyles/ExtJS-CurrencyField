@@ -1,4 +1,4 @@
-Ext.define('Ext.currencyfield.CurrencyField', {
+Ext.define('Ext.common.currency.Field', {
   extend: 'Ext.form.field.Number',
   alias: 'widget.currencyfield',
 
