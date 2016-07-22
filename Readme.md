@@ -9,7 +9,7 @@ copy: .pkg file to workspace of your project
 
 run: ```sencha package add currencyField.pkg```
 
-add 'material-icons' to your app.json
+add 'currencyField' to your app.json
 
 ```
    "requires": [
@@ -25,7 +25,7 @@ run: ```sencha app refresh```
 
 ## Usage
 
-Use the xtype or createAlias ```currencyfield```
+Use the xtype ```currencyfield``` or if in Sencha Architect use createAlias ```currencyfield``` on a 'Ext.form.field.Number' to overide.
 
 ## Note 
 I'm aware that the current namespace for this component is less than informative and will be adjusting the package accordingly in time. 
